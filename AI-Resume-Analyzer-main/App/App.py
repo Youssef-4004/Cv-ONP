@@ -30,6 +30,7 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
+stop_words = set(stopwords.words('english'))
 
 ###### Preprocessing functions ######
 
